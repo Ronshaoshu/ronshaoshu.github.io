@@ -5,4 +5,4 @@ theme = 'yinyang'
 
 [params]
 headTitle = "Shaoshu Zhu"
-customCSS = ["css/custom.css"]
+extraCSSFiles = ["css/custom.css"]
