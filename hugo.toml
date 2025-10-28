@@ -11,16 +11,22 @@ extraHead = '''
   .header-title {
     font-size: 2rem !important;
     font-weight: bold !important;
-    color: #060606 !important;
+    color: #000000 !important;
     text-transform: uppercase !important;
     letter-spacing: 2px !important;
+    -webkit-text-stroke: 0 !important;
+    -webkit-text-fill-color: #000000 !important;
+    text-stroke: 0 !important;
   }
   .header-title a {
     font-size: 2rem !important;
     font-weight: bold !important;
-    color: #060606 !important;
+    color: #000000 !important;
     text-transform: uppercase !important;
     letter-spacing: 2px !important;
+    -webkit-text-stroke: 0 !important;
+    -webkit-text-fill-color: #000000 !important;
+    text-stroke: 0 !important;
   }
 </style>
 '''
