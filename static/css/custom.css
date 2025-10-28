@@ -6,3 +6,11 @@
     letter-spacing: 2px;
     /* Add any other styles you want */
 }
+
+.header-title a {
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    color: #060606 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+}
