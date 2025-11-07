@@ -30,3 +30,42 @@
     text-align: center !important;
     padding: 0 !important;
 }
+
+/* Horizontal scrollable gallery */
+.image-gallery {
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    justify-content: flex-start !important;
+    padding: 10px 0 !important;
+    padding-bottom: 16px !important;
+    max-width: 630px !important;
+    position: relative !important;
+}
+
+.image-gallery .gallery-item {
+    flex-shrink: 0 !important;
+    width: 150px !important;
+    height: 150px !important;
+}
+
+/* Scrollbar styling - hidden by default, shows on hover */
+.image-gallery::-webkit-scrollbar {
+    height: 0;
+}
+
+.image-gallery:hover::-webkit-scrollbar {
+    height: 6px;
+}
+
+.image-gallery::-webkit-scrollbar-track {
+    background: #494f5c;
+}
+
+.image-gallery::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+.image-gallery::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
