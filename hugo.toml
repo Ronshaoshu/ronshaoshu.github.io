@@ -1,9 +1,69 @@
 baseURL = 'https://ronshaoshu.github.io/'
 languageCode = 'en-us'
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 title = 'May'
 theme = 'hermit-v2'
 
+[languages]
+  [languages.en]
+    title = 'May'
+    weight = 1
+    [languages.en.params]
+      homeSubtitle = "You know me better, you understand me less."
+    [[languages.en.menu.main]]
+      name = "Thoughts"
+      url = "posts/"
+      weight = 10
+    [[languages.en.menu.main]]
+      name = "Moments"
+      url = "gallery/"
+      weight = 30
+    [[languages.en.menu.main]]
+      name = "About"
+      url = "about-me/"
+      weight = 40
+
+
+  [languages.zh]
+    title = 'May'
+    weight = 2
+    [languages.zh.params]
+      homeSubtitle = "你越了解我，或许越不懂我。"
+    [[languages.zh.menu.main]]
+      name = "一组脑波"
+      url = "posts/"
+      weight = 10
+    [[languages.zh.menu.main]]
+      name = "某些时刻"
+      url = "gallery/"
+      weight = 30
+    [[languages.zh.menu.main]]
+      name = "关于我"
+      url = "about-me/"
+      weight = 40
+
+
 [params]
 headTitle = "Shaoshu Zhu"
-homeSubtitle = "if you feel boring, think about stock and CS2"
+homeSubtitle = "You know me better, you understand me less."
 homeSubtitlePrinter = true
+footerCopyright = ' <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a>'
+footerHideThemeName = true
+
+[params.gallery]
+enable = true
+thumbnail = "300"
+
+[[module.mounts]]
+source = 'content'
+target = 'content'
+
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'static/images'
+target = 'assets/images'
+  

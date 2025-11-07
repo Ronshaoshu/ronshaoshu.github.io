@@ -15,18 +15,9 @@
     letter-spacing: 2px !important;
 }
 
-/* Make specific figure smaller */
-.content figure.small img {
-    max-width: 400px;
-    width: 100%;
-}
-
-/* Center home subtitle */
-#typewriter-container {
-    text-align: center !important;
-}
-
-#home-subtitle {
-    text-align: center !important;
-    padding: 0 !important;
+/* Align figure with content margin */
+.content figure.left {
+    float: none !important;
+    margin: 2em 0 !important;
+    max-width: 100% !important;
 }
