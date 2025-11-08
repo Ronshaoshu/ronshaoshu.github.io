@@ -6,10 +6,10 @@ date: 2025-11-07
 ## 再难忘
 
 {{< gallery >}}
-/images/mom-me.jpeg
 /images/my-forever-grandpa.jpeg
-/images/xiange.jpeg
+/images/mom-me.jpeg
 /images/leftover.jpeg
+/images/xiange.jpeg
 {{< /gallery >}}
 
 ## 某个我

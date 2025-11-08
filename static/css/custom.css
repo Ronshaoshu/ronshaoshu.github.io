@@ -38,14 +38,14 @@
     justify-content: flex-start !important;
     padding: 10px 0 !important;
     padding-bottom: 16px !important;
-    max-width: 630px !important;
+    max-width: 1200px !important;
     position: relative !important;
 }
 
 .image-gallery .gallery-item {
     flex-shrink: 0 !important;
-    width: 150px !important;
-    height: 150px !important;
+    width: 200px !important;
+    height: 200px !important;
 }
 
 /* Scrollbar styling - hidden by default, shows on hover */

@@ -6,10 +6,10 @@ date: 2025-11-07
 ## My Precious
 
 {{< gallery >}}
-/images/mom-me.jpeg
 /images/my-forever-grandpa.jpeg
-/images/xiange.jpeg
+/images/mom-me.jpeg
 /images/leftover.jpeg
+/images/xiange.jpeg
 {{< /gallery >}}
 
 ## Versions of Me
